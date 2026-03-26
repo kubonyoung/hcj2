@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="/media.html">media</a>
+          </li>
+          <li>
+            <a href="/list.html">list</a>
+          </li>
+          <li>
+            <a href="/table.html">timetable</a>
+          </li>
+          <li>
+            <a href="/about.html">about</a>
+          </li>
+          <li>
+            <a href="/contact.html">contact</a>
+          </li>
+          <li>
+            <a href="/form2.html">sign up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <table>
+      <caption>
+        <h3>시간표</h3>
+      </caption>
+      <tr>
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+      </tr>
+      <tr>
+        <td>1교시</td>
+        <td rowspan="2">
+          English <br />for global <br />
+          Citizens <br />
+          III
+        </td>
+        <td rowspan="2">웹프로그래밍</td>
+        <td rowspan="2">서버구축및<br />운영실습</td>
+        <td rowspan="4">네트워크보안</td>
+        <td rowspan="3">교내 근로</td>
+      </tr>
+      <tr>
+        <td>2교시</td>
+      </tr>
+      <tr>
+        <td>3교시</td>
+        <td>교내 근로</td>
+        <td rowspan="2">보안자료구조</td>
+        <td rowspan="2">객체지향<br />프로그래밍</td>
+      </tr>
+      <tr>
+        <td>4교시</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5교시</td>
+        <td>교내 근로</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="5">교내 근로</td>
+      </tr>
+      <tr>
+        <td>6교시</td>
+        <td rowspan="2">웹프로그래밍</td>
+        <td rowspan="2">서버구축및<br />운영실습</td>
+        <td rowspan="4">교내 근로</td>
+        <td rowspan="4">교내 근로</td>
+      </tr>
+      <tr>
+        <td>7교시</td>
+      </tr>
+      <tr>
+        <td>8교시</td>
+        <td rowspan="2">보안자료구조</td>
+        <td rowspan="2">객체지향<br />프로그래밍</td>
+      </tr>
+      <tr>
+        <td>9교시</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!-- 과제 : 강의 시간표 표로 만들어서 홈페이지에 넣기 -->
